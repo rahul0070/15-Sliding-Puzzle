@@ -1,0 +1,51 @@
+right([ b , A , B , C , D , E , F , G , H , I , J , K , L , M , N , O ], [ A , b , B , C , D , E , F , G , H , I , J , K , L , M , N , O ]).
+right([ A , b , B , C , D , E , F , G , H , I , J , K , L , M , N , O ], [ A , B , b , C , D , E , F , G , H , I , J , K , L , M , N , O ]).
+right([ A , B , b , C , D , E , F , G , H , I , J , K , L , M , N , O ], [ A , B , C , b , D , E , F , G , H , I , J , K , L , M , N , O ]).
+right([ A , B , C , D , b , E , F , G , H , I , J , K , L , M , N , O ], [ A , B , C , D , E , b , F , G , H , I , J , K , L , M , N , O ]).
+right([ A , B , C , D , E , b , F , G , H , I , J , K , L , M , N , O ], [ A , B , C , D , E , F , b , G , H , I , J , K , L , M , N , O ]).
+right([ A , B , C , D , E , F , b , G , H , I , J , K , L , M , N , O ], [ A , B , C , D , E , F , G , b , H , I , J , K , L , M , N , O ]).
+right([ A , B , C , D , E , F , G , H , b , I , J , K , L , M , N , O ], [ A , B , C , D , E , F , G , H , I , b , J , K , L , M , N , O ]).
+right([ A , B , C , D , E , F , G , H , I , b , J , K , L , M , N , O ], [ A , B , C , D , E , F , G , H , I , J , b , K , L , M , N , O ]).
+right([ A , B , C , D , E , F , G , H , I , J , b , K , L , M , N , O ], [ A , B , C , D , E , F , G , H , I , J , K , b , L , M , N , O ]).
+right([ A , B , C , D , E , F , G , H , I , J , K , L , b , M , N , O ], [ A , B , C , D , E , F , G , H , I , J , K , L , M , b , N , O ]).
+right([ A , B , C , D , E , F , G , H , I , J , K , L , M , b , N , O ], [ A , B , C , D , E , F , G , H , I , J , K , L , M , N , b , O ]).
+right([ A , B , C , D , E , F , G , H , I , J , K , L , M , N , b , O ], [ A , B , C , D , E , F , G , H , I , J , K , L , M , N , O , b ]).
+
+left([ A , b , B , C , D , E , F , G , H , I , J , K , L , M , N , O ], [ b,  A , B , C , D , E , F , G , H , I , J , K , L , M , N , O ]).
+left([ A , B , b , C , D , E , F , G , H , I , J , K , L , M , N , O ], [ A , b , B , C , D , E , F , G , H , I , J , K , L , M , N , O ]).
+left([ A , B , C , b , D , E , F , G , H , I , J , K , L , M , N , O ], [ A , B , b , C , D , E , F , G , H , I , J , K , L , M , N , O ]).
+left([ A , B , C , D , E , b , F , G , H , I , J , K , L , M , N , O ], [ A , B , C , D , b , E , F , G , H , I , J , K , L , M , N , O ]).
+left([ A , B , C , D , E , F , b , G , H , I , J , K , L , M , N , O ], [ A , B , C , D , E , b , F , G , H , I , J , K , L , M , N , O ]).
+left([ A , B , C , D , E , F , G , b , H , I , J , K , L , M , N , O ], [ A , B , C , D , E , F , b , G , H , I , J , K , L , M , N , O ]).
+left([ A , B , C , D , E , F , G , H , I , b , J , K , L , M , N , O ], [ A , B , C , D , E , F , G , H , b , I , J , K , L , M , N , O ]).
+left([ A , B , C , D , E , F , G , H , I , J , b , K , L , M , N , O ], [ A , B , C , D , E , F , G , H , I , b , J , K , L , M , N , O ]).
+left([ A , B , C , D , E , F , G , H , I , J , K , b , L , M , N , O ], [ A , B , C , D , E , F , G , H , I , J , b , K , L , M , N , O ]).
+left([ A , B , C , D , E , F , G , H , I , J , K , L , M , b , N , O ], [ A , B , C , D , E , F , G , H , I , J , K , L , b , M , N , O ]).
+left([ A , B , C , D , E , F , G , H , I , J , K , L , M , N , b , O ], [ A , B , C , D , E , F , G , H , I , J , K , L , M , b , N , O ]).
+left([ A , B , C , D , E , F , G , H , I , J , K , L , M , N , O , b ], [ A , B , C , D , E , F , G , H , I , J , K , L , M , N , b , O ]).
+
+up([ A , B , C , D , b , E , F , G , H , I , J , K , L , M , N , O ], [ b , B , C , D , A , E , F , G , H , I , J , K , L , M , N , O ]).
+up([ A , B , C , D , E , b , F , G , H , I , J , K , L , M , N , O ], [ A , b , C , D , E , B , F , G , H , I , J , K , L , M , N , O ]).
+up([ A , B , C , D , E , F , b , G , H , I , J , K , L , M , N , O ], [ A , B , b , D , E , F , C , G , H , I , J , K , L , M , N , O ]).
+up([ A , B , C , D , E , F , G , b , H , I , J , K , L , M , N , O ], [ A , B , C , b , E , F , G , D , H , I , J , K , L , M , N , O ]).
+up([ A , B , C , D , E , F , G , H , b , I , J , K , L , M , N , O ], [ A , B , C , D , b , F , G , H , E , I , J , K , L , M , N , O ]).
+up([ A , B , C , D , E , F , G , H , I , b , J , K , L , M , N , O ], [ A , B , C , D , E , b , G , H , I , F , J , K , L , M , N , O ]).
+up([ A , B , C , D , E , F , G , H , I , J , b , K , L , M , N , O ], [ A , B , C , D , E , F , b , H , I , J , G , K , L , M , N , O ]).
+up([ A , B , C , D , E , F , G , H , I , J , K , b , L , M , N , O ], [ A , B , C , D , E , F , G , b , I , J , K , H , L , M , N , O ]).
+up([ A , B , C , D , E , F , G , H , I , J , K , L , b , M , N , O ], [ A , B , C , D , E , F , G , H , b , J , K , L , I , M , N , O ]).
+up([ A , B , C , D , E , F , G , H , I , J , K , L , M , b , N , O ], [ A , B , C , D , E , F , G , H , I , b , K , L , M , J , N , O ]).
+up([ A , B , C , D , E , F , G , H , I , J , K , L , M , N , b , O ], [ A , B , C , D , E , F , G , H , I , J , b , L , M , N , K , O ]).
+up([ A , B , C , D , E , F , G , H , I , J , K , L , M , N , O , b ], [ A , B , C , D , E , F , G , H , I , J , K , b , M , N , O , L ]).
+
+down([ b , A , B , C , D , E , F , G , H , I , J , K , L , M , N , O ], [ D , A , B , C , b , E , F , G , H , I , J , K , L , M , N , O ]).
+down([ A , b , B , C , D , E , F , G , H , I , J , K , L , M , N , O ], [ A , E , B , C , D , b , F , G , H , I , J , K , L , M , N , O ]).
+down([ A , B , b , C , D , E , F , G , H , I , J , K , L , M , N , O ], [ A , B , F , C , D , E , b , G , H , I , J , K , L , M , N , O ]).
+down([ A , B , C , b , D , E , F , G , H , I , J , K , L , M , N , O ], [ A , B , C , G , D , E , F , b , H , I , J , K , L , M , N , O ]).
+down([ A , B , C , D , b , E , F , G , H , I , J , K , L , M , N , O ], [ A , B , C , D , H , E , F , G , b , I , J , K , L , M , N , O ]).
+down([ A , B , C , D , E , b , F , G , H , I , J , K , L , M , N , O ], [ A , B , C , D , E , I , F , G , H , b , J , K , L , M , N , O ]).
+down([ A , B , C , D , E , F , b , G , H , I , J , K , L , M , N , O ], [ A , B , C , D , E , F , J , G , H , I , b , K , L , M , N , O ]).
+down([ A , B , C , D , E , F , G , b , H , I , J , K , L , M , N , O ], [ A , B , C , D , E , F , G , K , H , I , J , b , L , M , N , O ]).
+down([ A , B , C , D , E , F , G , H , b , I , J , K , L , M , N , O ], [ A , B , C , D , E , F , G , H , L , I , J , K , b , M , N , O ]).
+down([ A , B , C , D , E , F , G , H , I , b , J , K , L , M , N , O ], [ A , B , C , D , E , F , G , H , I , M , J , K , L , b , N , O ]).
+down([ A , B , C , D , E , F , G , H , I , J , b , K , L , M , N , O ], [ A , B , C , D , E , F , G , H , I , J , N , K , L , M , b , O ]).
+down([ A , B , C , D , E , F , G , H , I , J , K , b , L , M , N , O ], [ A , B , C , D , E , F , G , H , I , J , K , O , L , M , N , b ]).
